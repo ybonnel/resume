@@ -56,15 +56,28 @@ a#pdf:hover { background: #222; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
 .job p { margin: 0.75em 0 0.75em 0; }
 
+.job ul.list {
+	margin-bottom: 1.5em;
+}
+
 .job ul.list li {
 	border-bottom: 0px;
 	list-style: circle;
-	margin-left: 1.5em;
+	margin-left: 2em;
+}
+
+.job ul.list li ul li {
+	list-style: square;
 }
 
 .job u {
 	margin-top: 1.5em;
 	display: block;
+}
+
+.job.last {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .last { border: none; }
