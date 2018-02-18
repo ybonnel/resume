@@ -160,7 +160,25 @@ a#pdf:hover { background: #222; }
 		content: 'Page 'counter(page)'/5';
 		position: absolute;
 		right: 40px;
+		top: calc(28cm * page);
 	}
+
+	.pagebreak.page1:after {
+		top: 105em;
+	}
+	.pagebreak.page2:after {
+		top: 105em;
+		right: 0px;
+	}
+
+	.pagebreak.page3:after {
+		top: 317em;
+	}
+
+	.pagebreak.page4:after {
+		top: 423em;
+	}
+
 	#ft {
 		display: none!important
 	}
